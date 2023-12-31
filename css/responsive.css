@@ -1,0 +1,55 @@
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+
+    .home {
+        height: 50%;
+        text-align: center;
+        padding: 300px 0;
+    }
+
+    .home h1 {
+        font-size: 100px;
+    }
+
+    .produk {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 22%;
+    }
+
+    .container .card {
+        width: 300px;
+        height: 350px;
+
+    }
+
+    .menu-3 {
+        height: 50%;
+    }
+
+    .tentang-kami p {
+        padding: 50px 10px;
+        font-size: 17px;
+        text-align: start;
+    }
+
+
+    .step {
+        min-height: 50%;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+
+}
